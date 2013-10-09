@@ -11,4 +11,8 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+source ~/.profile
+
+# %v - virtualenv name.
+#zstyle ':prezto:module:python:info:virtualenv' format 'virtualenv:%v'
 
