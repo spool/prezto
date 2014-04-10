@@ -14,5 +14,4 @@ fi
 source ~/.profile
 
 # %v - virtualenv name.
-#zstyle ':prezto:module:python:info:virtualenv' format 'virtualenv:%v'
-
+zstyle ':prezto:module:python:info:virtualenv' format 'virtualenv:%v'
